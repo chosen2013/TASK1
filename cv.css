@@ -1,0 +1,18 @@
+#contact_information {
+                    text-align:center;
+                    border-style:groove;
+                    border-radius:5px;
+}
+
+#contact_information>#picture {
+                   float:right;
+}
+
+span{
+    color:green;
+}
+
+article{
+       border-style:groove;
+       border-radius:3px;
+}
