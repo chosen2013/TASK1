@@ -91,7 +91,7 @@
        <br>
        <h2 id="form-header">CONTACT FORM</h2>
        <div class="form-div">
-         <form autocomplete="off" action="form.php" method="POST">
+         <form autocomplete="off" method="POST">
            <div class="form-group">
              <label for="name">NAME:</label>
              <input type="text" placeholder="First and Last Name" name="textdata" id="name" required min-length="4">
@@ -116,3 +116,13 @@
   </body>
 </html>
 
+<?php
+              
+if(isset($_POST['textdata']))
+{
+$data=$_POST['textdata'];
+$fp = fopen('data.txt', 'a');
+fwrite($fp, $data);
+fclose($fp);
+}
+?>
