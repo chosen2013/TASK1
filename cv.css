@@ -12,7 +12,7 @@ span{
     color:green;
 }
 
-.my-cv{
+main.my-cv{
      border-style:groove;
      border-radius:3px;
 }
@@ -23,5 +23,6 @@ span{
 	text-align:center-left;
 	color:green;
 }
-.container{
+/*div.container{
 	float: left;
+}*/
